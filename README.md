@@ -16,7 +16,7 @@ Exercices ->
 
 The objective will be to create a conversation for a Restaurant. The bot will be able to tell the menu to a client.
 
-1: Create a Intent which is call "Menu_Questions". Add a few sentences similar to "What's the today menu?".
+1: Create a Intent which is call "Menu_Questions". Add a few sentences similar to "What's the menu?".
   
 2: Create few Intenties:    - Yes
                             - No
@@ -25,4 +25,12 @@ The objective will be to create a conversation for a Restaurant. The bot will be
                             
 3: Create few Nodes, where the client can ask what's the menu, what's the different composant of the menu. Don't forget error case.
 
+4: Create your own Intent, Entites and make different loop to don't leave the conversation.
 
+5: Create an Intent and different node for the end of the conversation.
+
+6: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
+
+7: Create a new arborescence where the client can know the hours of the restaurant.
+
+8: Create a node where the client can take a reservation.
