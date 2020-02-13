@@ -26,8 +26,11 @@ ___
  - No
  - Food
  - Drink
-               
+
+3: Create a node, in which you will 
+
 3: Create few Nodes, where the client can ask what's the menu, what's the different composant of the menu. Don't forget error case.
+Tips: In the node parameters, enable "multiples responses".
 
 4: Create your own Intent, Entites and make different loop to don't leave the conversation.
 
@@ -35,10 +38,11 @@ ___
 
 6: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
 
-7: Create a new arborescence where the client can know the hours of the restaurant.
+7: Create a new branch where the client can know the hours of the restaurant.
 
 8: Create a node where the client can take a reservation.
 
+ MULTIPLES RESPONSES
 ___
 
 Want to go further ? Create a new conversation and try to do a QA.
