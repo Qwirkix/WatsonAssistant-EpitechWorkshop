@@ -1,3 +1,4 @@
+
 # WatsonAssistant-EpitechWorkshop
 Watson Assistant Tutorial
 ---
@@ -27,7 +28,7 @@ ___
  - Food
  - Drink
 
-3: Create a node, in which you will 
+3: Create a new node, where to answer to the Menu_Question Intent.
 
 3: Create few Nodes, where the client can ask what's the menu, what's the different composant of the menu. Don't forget error case.
 Tips: In the node parameters, enable "multiples responses".
@@ -47,7 +48,8 @@ ___
 
 Want to go further ? Create a new conversation and try to do a QA.
 If you don't know where to start, here's some links:
-[https://www.juritravail.com/Actualite/conformite-rgpd/Id/286384](https://www.juritravail.com/Actualite/conformite-rgpd/Id/286384)
-[https://msc-pro.epitech.eu/faq/](https://msc-pro.epitech.eu/faq/)
+
+ - [https://www.juritravail.com/Actualite/conformite-rgpd/Id/286384](https://www.juritravail.com/Actualite/conformite-rgpd/Id/286384)
+ - [https://msc-pro.epitech.eu/faq/](https://msc-pro.epitech.eu/faq/)
 
 
