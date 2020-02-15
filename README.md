@@ -23,27 +23,29 @@ ___
 1: Create a Intent which is call "Menu_Questions". Add a few sentences similar to "What's the menu?".
   
 2: Create few Entities: 
- - Yes
- - No
- - Food
- - Drink
+ - "Yes"
+ - "No"
+ - 3 aliments
+ - 3 drinks
+ 
+ Complete these entities, you are free to choose your aliments.
 
-3: Create a new node, where to answer to the Menu_Question Intent.
+3: Create a new node. Her condition will be your Intent "Menu_Questions". In this node, you will answer the question of the previous Intent.
 
-3: Create few Nodes, where the client can ask what's the menu, what's the different composant of the menu. Don't forget error case.
-Tips: In the node parameters, enable "multiples responses".
+4: Create a child node of the previous one. In this node, use the entities that you previously create to explain what are each aliments in the menu.
+Tips: Try to find "enable multiples responses".
+After an answer, the client could be able to ask for another aliments.
 
-4: Create your own Intent, Entites and make different loop to don't leave the conversation.
+5: Your objective is now to handle error case. (What it's going on if the bot don't understand the question ?)
+Ask to the client if he want more information about something.
 
-5: Create an Intent and different node for the end of the conversation.
+6: Create an Intent and different node for the end of the conversation. (The client dosn't want more informations)
 
-6: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
+7: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
 
-7: Create a new branch where the client can know the hours of the restaurant.
+8: Create a new branch where the client can know the hours of the restaurant.
 
-8: Create a node where the client can take a reservation.
-
- MULTIPLES RESPONSES
+9: Create a node where the client can take a reservation. The bot should answer with a summary of the client said.
 ___
 
 Want to go further ? Create a new conversation and try to do a QA.
