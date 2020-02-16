@@ -25,25 +25,32 @@ ___
 2: Create few Entities: 
  - "Yes"
  - "No"
- - 3 aliments
- - 3 drinks
+ - 4 aliments
+ - 4 drinks
  
  Complete these entities, you are free to choose your aliments.
+___
 
 3: Create a new node. Her condition will be your Intent "Menu_Questions". In this node, you will answer the question of the previous Intent.
+___
 
 4: Create a child node of the previous one. In this node, use the entities that you previously create to explain what are each aliments in the menu.
 Tips: Try to find "enable multiples responses".
 After an answer, the client could be able to ask for another aliments.
+___
 
 5: Your objective is now to handle error case. (What it's going on if the bot don't understand the question ?)
-Ask to the client if he want more information about something.
+Ask to the client if he want more information about another aliment.
+___
 
 6: Create an Intent and different node for the end of the conversation. (The client dosn't want more informations)
+___
 
 7: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
+___
 
 8: Create a new branch where the client can know the hours of the restaurant.
+___
 
 9: Create a node where the client can take a reservation. The bot should answer with a summary of the client said.
 ___
