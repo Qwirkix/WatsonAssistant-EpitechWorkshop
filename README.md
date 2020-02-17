@@ -43,10 +43,10 @@ ___
 Ask to the client if he want more information about another aliment.
 ___
 
-6: Create an Intent and different node for the end of the conversation. (The client dosn't want more informations)
+6: Create an Intent and different node for the end of the conversation. (The client doesn't want more informations)
 ___
 
-7: Create a variable which is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
+7: Create a variable wich is a counter for error case. Use this counter to redirect the conversation after the count is 2. (Like an advisor)
 ___
 
 8: Create a new branch where the client can know the hours of the restaurant.
